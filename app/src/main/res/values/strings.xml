@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">catchdata</string>
+
+    <string name="scan">扫描二维码</string>
+    <string name="save">保存信息</string>
+    <string name="zero">计数清零</string>
+
+    <string name="code">标志明码：</string>
+    <string name="producer">生产厂家：</string>
+    <string name="file_NO">档案号码：</string>
+    <string name="name">产品名称：</string>
+    <string name="model">规格型号：</string>
+    <string name="form_type">表单类型：</string>
+    <string name="dealer_info">经销信息：</string>
+    <string name="sale_type">销售类别：</string>
+    <string name="arrive_date">到达日期：</string>
+    <string name="sale_area">流向地区：</string>
+
+    <string name="hint">扫码后显示信息</string>
+    <string name="error">二维码信息有误，扫描内容错误</string>
+</resources>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:background="?attr/colorPrimary"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <GridLayout
+        android:id="@+id/kuang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/C5CED3"
+        android:rowCount="10"
+        android:columnCount="2"
+        android:shrinkColumns="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/code"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/producer"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/producer"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/file_NO"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/file_NO"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/name"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/model"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/form_type"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/form_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/dealer_info"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/dealer_info"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/sale_type"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/sale_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/arrive_date"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/arrive_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/sale_area"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+        <TextView
+            android:id="@+id/sale_area"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:textSize="15sp"
+            android:textColor="@color/DD000000"/>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kuang"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="50sp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="150dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/scan"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/zero"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tongji"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:text="导出数据"
+        android:textSize="15sp"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>
